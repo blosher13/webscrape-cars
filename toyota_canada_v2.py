@@ -104,7 +104,14 @@ else:
 
 df_model_details[['year','model']] = df_model_details['model'].str.split(' ', n=1, expand=True)
 df_model_details = df_model_details[['year','make', 'model', 'trim', 'msrp_price', 'as_of_datetime']]
-
+df_model_details['msrp_price'] = df_model_details['msrp_price'].str.replace('$', '', regex=False).str.replace(',', '', regex=False)
+df_model_details['msrp_price'] = pd.to_numeric(df_model_details['msrp_price'])
+df_model_details =df_model_details.where(pd.notnull(df_model_details), 'NA')
 df_models = df_model_details[['make', 'model']].drop_duplicates().reset_index(drop=True)
+
+
 df_models.to_csv('processed_data/toyota_make_model.csv', index=False, encoding='utf-8')
 df_model_details.to_csv('processed_data/toyota_details.csv', index=False, encoding='utf-8')
+
+print("Any NaN left in make_model:", df_model_details.isna().sum().sum())
+print("Any NaN left in details:", df_models.isna().sum().sum())
