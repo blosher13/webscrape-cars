@@ -5,13 +5,13 @@ import pandas as pd
 from datetime import date
 import os
 import time
+from playwright.sync_api import sync_playwright
 
 session = HTMLSession()
 base_url = 'https://www.toyota.ca'
 
 
 def get_make_model():
-
     overview_url = session.get(f'{base_url}/en/build-price/')
     overview_url.html.render(sleep=3)  # wait for JS to load
     soup = BeautifulSoup(overview_url.html.html, 'html.parser')
@@ -46,34 +46,43 @@ else:
 
 def get_model_details(detail_urls_list):
     model_details = []
-    for detail_url in detail_urls_list:
-        try:
-            detail_request = session.get(detail_url)
-            detail_request.html.render(timeout=20, sleep=3)  # wait for JS to load
-            
-            soup = BeautifulSoup(detail_request.html.html, 'html.parser')
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
 
-            trims = soup.find_all('div', class_='regularVehicleWrapper')
-            
-            for trim in trims:
-                # get title
-                model = trim.find('div', class_='titleTop subheading-1').text(strip=True)
-                trim = trim.find('div', class_='titleBottom heading-5 heading-5--bold').text(strip=True)
+        for detail_url in detail_urls_list:
+            try:
+                print(f'Scraping {detail_url}')
+                page.goto(detail_url, timeout=6000)
+                page.wait_for_timeout(3000)  # wait 3 sec for JS
 
-                # get price
-                inner_price = trim.find('span', class_='dollarSign')
-                msrp_price = inner_price.find_parent('span').get_text(strip=True)
-                model_details.append(
-                    {
-                        'make': 'Toyota',
-                        'model': model,
-                        'trim': trim,
-                        'msrp_price': msrp_price
-                    })
-                detail_request.close()
-                time.sleep(2)
-        except Exception as e:
-            print(f"Skipping {detail_url} due to error: {e}")
+                html = page.content()
+
+                # detail_request = session.get(detail_url)
+                # detail_request.html.render(timeout=20, sleep=3)  # wait for JS to load
+                
+                soup = BeautifulSoup(html, 'html.parser')
+
+                trims = soup.find_all('div', class_='regularVehicleWrapper')
+                
+                for trim in trims:
+                    # get title
+                    model = trim.find('div', class_='titleTop subheading-1').get_text(strip=True)
+                    trim_name = trim.find('div', class_='titleBottom heading-5 heading-5--bold').get_text(strip=True)
+
+                    # get price
+                    inner_price = trim.find('span', class_='dollarSign')
+                    msrp_price = inner_price.find_parent('span').get_text(strip=True)
+                    model_details.append(
+                        {
+                            'make': 'Toyota',
+                            'model': model,
+                            'trim': trim_name,
+                            'msrp_price': msrp_price
+                        })
+            except Exception as e:
+                print(f"Skipping {detail_url} due to error: {e}")
+        browser.close()
     return model_details
 
 toyota_details_file_name = 'toyota_model_details.csv'
