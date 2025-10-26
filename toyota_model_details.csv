@@ -1,93 +1,93 @@
-make,model,trim,msrp_price
-Toyota,2025 GR86,MT,"$35,399.08"
-Toyota,2025 GR86,Premium MT,"$38,399.08"
-Toyota,2025 GR86,Premium AT,"$40,364.08"
-Toyota,2025 GR86,HAKONE Edition MT,"$41,754.08"
-Toyota,2025 GR Corolla,MT,"$51,459.08"
-Toyota,2025 GR Corolla,AT,"$61,681.08"
-Toyota,2025 GR Supra,3.0L AT,"$65,779.08"
-Toyota,2025 GR Supra,3.0L MT,"$65,779.08"
-Toyota,2026 Prius,XLE AWD,"$41,409.08"
-Toyota,2026 Prius,Limited AWD,"$47,524.08"
-Toyota,2025 Prius Plug-in Hybrid,SE,"$43,094.08"
-Toyota,2025 Prius Plug-in Hybrid,XSE,"$47,829.08"
-Toyota,2025 Prius Plug-in Hybrid,XSE Premium,"$51,579.08"
-Toyota,2025 Corolla Hatchback,CVT,"$27,319.08"
-Toyota,2025 Corolla,L CVT,"$26,918.58"
-Toyota,2025 Corolla,LE CVT,"$27,913.58"
-Toyota,2025 Corolla,SE CVT,"$29,498.58"
-Toyota,2025 Corolla Hybrid,LE,"$30,034.08"
-Toyota,2025 Corolla Hybrid,LE AWD,"$31,534.08"
-Toyota,2025 Corolla Hybrid,SE AWD,"$33,674.08"
-Toyota,2025 Corolla,XSE CVT,"$35,143.58"
-Toyota,2025 Corolla Hybrid,XSE AWD,"$39,299.08"
-Toyota,2026 Camry Hybrid,SE FWD,"$37,623.58"
-Toyota,2026 Camry Hybrid,SE Upgrade AWD,"$41,318.58"
-Toyota,2026 Camry Hybrid,XLE AWD,"$48,273.58"
-Toyota,2026 Camry Hybrid,XSE AWD,"$48,378.58"
-Toyota,2025 Crown,Limited,"$57,435.58"
-Toyota,2025 Crown,Platinum,"$66,868.58"
-Toyota,2026 bZ,XLE FWD,"$49,108.58"
-Toyota,2026 bZ,XLE AWD,"$56,508.58"
-Toyota,2026 bZ,Limited AWD,"$64,808.58"
-Toyota,2026 Corolla Cross,L FWD,"$31,698.58"
-Toyota,2026 Corolla Cross,L AWD,"$33,098.58"
-Toyota,2026 Corolla Cross,LE FWD,"$33,753.58"
-Toyota,2026 Corolla Cross,LE AWD,"$34,773.58"
-Toyota,2026 Corolla Cross Hybrid,SE AWD,"$38,924.08"
-Toyota,2026 Corolla Cross,XLE AWD,"$41,003.58"
-Toyota,2026 Corolla Cross Hybrid,XSE AWD,"$41,749.08"
-Toyota,2025 RAV4,LE AWD,"$36,803.58"
-Toyota,2025 RAV4 Hybrid,LE AWD,"$39,753.58"
-Toyota,2025 RAV4,XLE AWD,"$40,543.58"
-Toyota,2025 RAV4 Hybrid,XLE AWD,"$42,893.58"
-Toyota,2025 RAV4,Trail AWD,"$44,233.58"
-Toyota,2025 RAV4 Hybrid,SE AWD,"$44,693.58"
-Toyota,2025 RAV4 Hybrid,XSE AWD,"$47,593.58"
-Toyota,2025 RAV4,Limited AWD,"$48,423.58"
-Toyota,2025 RAV4 Hybrid,Limited AWD,"$50,773.58"
-Toyota,2025 RAV4 Plug-in Hybrid,SE AWD,"$54,833.58"
-Toyota,2025 RAV4 Plug-in Hybrid,XSE AWD,"$59,673.58"
-Toyota,2025 Crown Signia,Limited,"$60,568.58"
-Toyota,2025 Highlander,XLE AWD,"$53,628.58"
-Toyota,2025 Highlander Hybrid,LE AWD,"$53,968.58"
-Toyota,2025 Highlander Hybrid,XLE AWD,"$56,828.58"
-Toyota,2025 Highlander,XSE AWD,"$57,463.58"
-Toyota,2025 Highlander,Limited AWD,"$59,008.58"
-Toyota,2025 Highlander Hybrid,Limited AWD,"$62,208.58"
-Toyota,2026 Grand Highlander,XLE,"$54,753.58"
-Toyota,2026 Grand Highlander Hybrid,XLE,"$58,053.58"
-Toyota,2026 Grand Highlander,Limited,"$61,888.58"
-Toyota,2026 Grand Highlander Hybrid,Limited,"$65,388.58"
-Toyota,2026 Grand Highlander Hybrid,Platinum Hybrid MAX,"$69,648.58"
-Toyota,2025 Sienna,LE FWD 8-Pass,"$51,218.58"
-Toyota,2025 Sienna,LE AWD 8-Pass,"$53,058.58"
-Toyota,2025 Sienna,XLE FWD 8-Pass,"$53,804.08"
-Toyota,2025 Sienna,XSE FWD 7-Pass,"$56,049.08"
-Toyota,2025 Sienna,XSE AWD 7-Pass,"$58,189.08"
-Toyota,2025 Sienna,Limited AWD 7-Pass,"$68,979.08"
-Toyota,2025 4Runner,,"$57,318.58"
-Toyota,2025 4Runner Hybrid,Hybrid,"$70,454.58"
-Toyota,2025 Land Cruiser,1958,"$73,313.58"
-Toyota,2025 Land Cruiser,Cruiser,"$82,073.58"
-Toyota,2026 Sequoia,SR5 TRD Off Road,"$88,058.58"
-Toyota,2026 Sequoia,Limited,"$91,388.58"
-Toyota,2026 Sequoia,Platinum,"$103,220.30"
-Toyota,2026 Sequoia,Capstone,"$106,816.70"
-Toyota,2025 Tacoma,4x4 Double Cab 8A,"$51,438.58"
-Toyota,2025 Tacoma,4x4 Double Cab 6M,"$53,017.58"
-Toyota,2025 Tacoma,4x4 Double Cab Hybrid,"$67,858.58"
-Toyota,2026 Tundra 4X2,Double Cab SR 4X2 Regular Bed,"$57,458.58"
-Toyota,2026 Tundra 4X2,Double Cab SR 4X2 Long Bed,"$57,958.58"
-Toyota,2026 Tundra 4X4,Double Cab SR,"$60,758.58"
-Toyota,2026 Tundra 4X4,CrewMax SR,"$62,703.58"
-Toyota,2026 Tundra 4X4,Double Cab SR5 L,"$64,928.58"
-Toyota,2026 Tundra 4X4,CrewMax SR5 L,"$65,613.58"
-Toyota,2026 Tundra 4X4,CrewMax Limited,"$75,438.58"
-Toyota,2026 Tundra 4X4,CrewMax Limited L,"$75,798.58"
-Toyota,2026 Tundra Hybrid,CrewMax Limited,"$79,093.58"
-Toyota,2026 Tundra Hybrid,CrewMax Limited L,"$79,138.58"
-Toyota,2026 Tundra 4X4,CrewMax Platinum,"$85,808.58"
-Toyota,2026 Tundra 4X4,CrewMax Platinum L,"$86,168.58"
-Toyota,2026 Tundra Hybrid,CrewMax Platinum,"$89,463.58"
-Toyota,2026 Tundra Hybrid,CrewMax Capstone,"$97,398.58"
+make,model,trim,msrp_price,as_of_datetime
+Toyota,2025 GR86,MT,"$35,399.08",2025-10-26 05:48:54.417505+00:00
+Toyota,2025 GR86,Premium MT,"$38,399.08",2025-10-26 05:48:54.417879+00:00
+Toyota,2025 GR86,Premium AT,"$40,364.08",2025-10-26 05:48:54.418004+00:00
+Toyota,2025 GR86,HAKONE Edition MT,"$41,754.08",2025-10-26 05:48:54.418124+00:00
+Toyota,2025 GR Corolla,MT,"$51,459.08",2025-10-26 05:48:59.265212+00:00
+Toyota,2025 GR Corolla,AT,"$61,681.08",2025-10-26 05:48:59.265338+00:00
+Toyota,2025 GR Supra,3.0L AT,"$65,779.08",2025-10-26 05:49:03.716321+00:00
+Toyota,2025 GR Supra,3.0L MT,"$65,779.08",2025-10-26 05:49:03.716461+00:00
+Toyota,2026 Prius,XLE AWD,"$41,409.08",2025-10-26 05:49:08.395758+00:00
+Toyota,2026 Prius,Limited AWD,"$47,524.08",2025-10-26 05:49:08.395891+00:00
+Toyota,2025 Prius Plug-in Hybrid,SE,"$43,094.08",2025-10-26 05:49:12.393509+00:00
+Toyota,2025 Prius Plug-in Hybrid,XSE,"$47,829.08",2025-10-26 05:49:12.393641+00:00
+Toyota,2025 Prius Plug-in Hybrid,XSE Premium,"$51,579.08",2025-10-26 05:49:12.393767+00:00
+Toyota,2025 Corolla Hatchback,CVT,"$27,319.08",2025-10-26 05:49:16.722129+00:00
+Toyota,2025 Corolla,L CVT,"$26,918.58",2025-10-26 05:49:20.954640+00:00
+Toyota,2025 Corolla,LE CVT,"$27,913.58",2025-10-26 05:49:20.954966+00:00
+Toyota,2025 Corolla,SE CVT,"$29,498.58",2025-10-26 05:49:20.955221+00:00
+Toyota,2025 Corolla Hybrid,LE,"$30,034.08",2025-10-26 05:49:20.955520+00:00
+Toyota,2025 Corolla Hybrid,LE AWD,"$31,534.08",2025-10-26 05:49:20.955818+00:00
+Toyota,2025 Corolla Hybrid,SE AWD,"$33,674.08",2025-10-26 05:49:20.956125+00:00
+Toyota,2025 Corolla,XSE CVT,"$35,143.58",2025-10-26 05:49:20.956294+00:00
+Toyota,2025 Corolla Hybrid,XSE AWD,"$39,299.08",2025-10-26 05:49:20.956532+00:00
+Toyota,2026 Camry Hybrid,SE FWD,"$37,623.58",2025-10-26 05:49:26.898614+00:00
+Toyota,2026 Camry Hybrid,SE Upgrade AWD,"$41,318.58",2025-10-26 05:49:26.898764+00:00
+Toyota,2026 Camry Hybrid,XLE AWD,"$48,273.58",2025-10-26 05:49:26.898955+00:00
+Toyota,2026 Camry Hybrid,XSE AWD,"$48,378.58",2025-10-26 05:49:26.899087+00:00
+Toyota,2025 Crown,Limited,"$57,435.58",2025-10-26 05:49:31.498090+00:00
+Toyota,2025 Crown,Platinum,"$66,868.58",2025-10-26 05:49:31.498230+00:00
+Toyota,2026 bZ,XLE FWD,"$49,108.58",2025-10-26 05:49:36.670526+00:00
+Toyota,2026 bZ,XLE AWD,"$56,508.58",2025-10-26 05:49:36.670663+00:00
+Toyota,2026 bZ,Limited AWD,"$64,808.58",2025-10-26 05:49:36.670794+00:00
+Toyota,2026 Corolla Cross,L FWD,"$31,698.58",2025-10-26 05:49:40.826661+00:00
+Toyota,2026 Corolla Cross,L AWD,"$33,098.58",2025-10-26 05:49:40.826800+00:00
+Toyota,2026 Corolla Cross,LE FWD,"$33,753.58",2025-10-26 05:49:40.826933+00:00
+Toyota,2026 Corolla Cross,LE AWD,"$34,773.58",2025-10-26 05:49:40.827066+00:00
+Toyota,2026 Corolla Cross Hybrid,SE AWD,"$38,924.08",2025-10-26 05:49:40.827207+00:00
+Toyota,2026 Corolla Cross,XLE AWD,"$41,003.58",2025-10-26 05:49:40.827338+00:00
+Toyota,2026 Corolla Cross Hybrid,XSE AWD,"$41,749.08",2025-10-26 05:49:40.827483+00:00
+Toyota,2025 RAV4,LE AWD,"$36,803.58",2025-10-26 05:49:44.967448+00:00
+Toyota,2025 RAV4 Hybrid,LE AWD,"$39,753.58",2025-10-26 05:49:44.967584+00:00
+Toyota,2025 RAV4,XLE AWD,"$40,543.58",2025-10-26 05:49:44.967704+00:00
+Toyota,2025 RAV4 Hybrid,XLE AWD,"$42,893.58",2025-10-26 05:49:44.967834+00:00
+Toyota,2025 RAV4,Trail AWD,"$44,233.58",2025-10-26 05:49:44.967951+00:00
+Toyota,2025 RAV4 Hybrid,SE AWD,"$44,693.58",2025-10-26 05:49:44.968079+00:00
+Toyota,2025 RAV4 Hybrid,XSE AWD,"$47,593.58",2025-10-26 05:49:44.968208+00:00
+Toyota,2025 RAV4,Limited AWD,"$48,423.58",2025-10-26 05:49:44.968325+00:00
+Toyota,2025 RAV4 Hybrid,Limited AWD,"$50,773.58",2025-10-26 05:49:44.968454+00:00
+Toyota,2025 RAV4 Plug-in Hybrid,SE AWD,"$54,833.58",2025-10-26 05:49:48.979412+00:00
+Toyota,2025 RAV4 Plug-in Hybrid,XSE AWD,"$59,673.58",2025-10-26 05:49:48.979545+00:00
+Toyota,2025 Crown Signia,Limited,"$60,568.58",2025-10-26 05:49:53.467405+00:00
+Toyota,2025 Highlander,XLE AWD,"$53,628.58",2025-10-26 05:49:57.554805+00:00
+Toyota,2025 Highlander Hybrid,LE AWD,"$53,968.58",2025-10-26 05:49:57.554941+00:00
+Toyota,2025 Highlander Hybrid,XLE AWD,"$56,828.58",2025-10-26 05:49:57.555072+00:00
+Toyota,2025 Highlander,XSE AWD,"$57,463.58",2025-10-26 05:49:57.555189+00:00
+Toyota,2025 Highlander,Limited AWD,"$59,008.58",2025-10-26 05:49:57.555305+00:00
+Toyota,2025 Highlander Hybrid,Limited AWD,"$62,208.58",2025-10-26 05:49:57.555432+00:00
+Toyota,2026 Grand Highlander,XLE,"$54,753.58",2025-10-26 05:50:01.702261+00:00
+Toyota,2026 Grand Highlander Hybrid,XLE,"$58,053.58",2025-10-26 05:50:01.702395+00:00
+Toyota,2026 Grand Highlander,Limited,"$61,888.58",2025-10-26 05:50:01.702513+00:00
+Toyota,2026 Grand Highlander Hybrid,Limited,"$65,388.58",2025-10-26 05:50:01.702639+00:00
+Toyota,2026 Grand Highlander Hybrid,Platinum Hybrid MAX,"$69,648.58",2025-10-26 05:50:01.702764+00:00
+Toyota,2025 Sienna,LE FWD 8-Pass,"$51,218.58",2025-10-26 05:50:06.917206+00:00
+Toyota,2025 Sienna,LE AWD 8-Pass,"$53,058.58",2025-10-26 05:50:06.917350+00:00
+Toyota,2025 Sienna,XLE FWD 8-Pass,"$53,804.08",2025-10-26 05:50:06.917490+00:00
+Toyota,2025 Sienna,XSE FWD 7-Pass,"$56,049.08",2025-10-26 05:50:06.917630+00:00
+Toyota,2025 Sienna,XSE AWD 7-Pass,"$58,189.08",2025-10-26 05:50:06.917774+00:00
+Toyota,2025 Sienna,Limited AWD 7-Pass,"$68,979.08",2025-10-26 05:50:06.917914+00:00
+Toyota,2025 4Runner,,"$57,318.58",2025-10-26 05:50:10.952606+00:00
+Toyota,2025 4Runner Hybrid,Hybrid,"$70,454.58",2025-10-26 05:50:10.952827+00:00
+Toyota,2025 Land Cruiser,1958,"$73,313.58",2025-10-26 05:50:15.418387+00:00
+Toyota,2025 Land Cruiser,Cruiser,"$82,073.58",2025-10-26 05:50:15.418523+00:00
+Toyota,2026 Sequoia,SR5 TRD Off Road,"$88,058.58",2025-10-26 05:50:20.282322+00:00
+Toyota,2026 Sequoia,Limited,"$91,388.58",2025-10-26 05:50:20.282463+00:00
+Toyota,2026 Sequoia,Platinum,"$103,220.30",2025-10-26 05:50:20.282592+00:00
+Toyota,2026 Sequoia,Capstone,"$106,816.70",2025-10-26 05:50:20.282719+00:00
+Toyota,2025 Tacoma,4x4 Double Cab 8A,"$51,438.58",2025-10-26 05:50:24.248109+00:00
+Toyota,2025 Tacoma,4x4 Double Cab 6M,"$53,017.58",2025-10-26 05:50:24.248243+00:00
+Toyota,2025 Tacoma,4x4 Double Cab Hybrid,"$67,858.58",2025-10-26 05:50:24.248388+00:00
+Toyota,2026 Tundra 4X2,Double Cab SR 4X2 Regular Bed,"$57,458.58",2025-10-26 05:50:28.351829+00:00
+Toyota,2026 Tundra 4X2,Double Cab SR 4X2 Long Bed,"$57,958.58",2025-10-26 05:50:28.351963+00:00
+Toyota,2026 Tundra 4X4,Double Cab SR,"$60,758.58",2025-10-26 05:50:28.352101+00:00
+Toyota,2026 Tundra 4X4,CrewMax SR,"$62,703.58",2025-10-26 05:50:28.352238+00:00
+Toyota,2026 Tundra 4X4,Double Cab SR5 L,"$64,928.58",2025-10-26 05:50:28.352369+00:00
+Toyota,2026 Tundra 4X4,CrewMax SR5 L,"$65,613.58",2025-10-26 05:50:28.352504+00:00
+Toyota,2026 Tundra 4X4,CrewMax Limited,"$75,438.58",2025-10-26 05:50:28.352641+00:00
+Toyota,2026 Tundra 4X4,CrewMax Limited L,"$75,798.58",2025-10-26 05:50:28.352791+00:00
+Toyota,2026 Tundra Hybrid,CrewMax Limited,"$79,093.58",2025-10-26 05:50:28.352942+00:00
+Toyota,2026 Tundra Hybrid,CrewMax Limited L,"$79,138.58",2025-10-26 05:50:28.353083+00:00
+Toyota,2026 Tundra 4X4,CrewMax Platinum,"$85,808.58",2025-10-26 05:50:28.353209+00:00
+Toyota,2026 Tundra 4X4,CrewMax Platinum L,"$86,168.58",2025-10-26 05:50:28.353331+00:00
+Toyota,2026 Tundra Hybrid,CrewMax Platinum,"$89,463.58",2025-10-26 05:50:28.353464+00:00
+Toyota,2026 Tundra Hybrid,CrewMax Capstone,"$97,398.58",2025-10-26 05:50:28.353600+00:00

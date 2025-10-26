@@ -1,10 +1,8 @@
 from bs4 import BeautifulSoup
-import requests
 from requests_html import HTMLSession
 import pandas as pd
-from datetime import date
+from datetime import datetime, timezone
 import os
-import time
 from playwright.sync_api import sync_playwright
 
 session = HTMLSession()
@@ -78,7 +76,8 @@ def get_model_details(detail_urls_list):
                             'make': 'Toyota',
                             'model': model,
                             'trim': trim_name,
-                            'msrp_price': msrp_price
+                            'msrp_price': msrp_price,
+                            'as_of_datetime': datetime.now(timezone.utc)
                         })
             except Exception as e:
                 print(f"Skipping {detail_url} due to error: {e}")
@@ -104,7 +103,7 @@ else:
 # transform model details data into 2 datasets 
 
 df_model_details[['year','model']] = df_model_details['model'].str.split(' ', n=1, expand=True)
-df_model_details = df_model_details[['year','make', 'model', 'trim', 'msrp_price']]
+df_model_details = df_model_details[['year','make', 'model', 'trim', 'msrp_price', 'as_of_datetime']]
 
 df_models = df_model_details[['make', 'model']].drop_duplicates().reset_index(drop=True)
 df_models.to_csv('processed_data/toyota_make_model.csv', index=False, encoding='utf-8')
